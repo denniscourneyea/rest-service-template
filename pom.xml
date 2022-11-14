@@ -2,7 +2,7 @@
     
     <modelVersion>4.0.0</modelVersion>
     
-    <groupId>ca.denniscourneyea.rest-soap-template</groupId>
+    <groupId>ca.denniscourneyea.rest-service-template</groupId>
     <artifactId>parent</artifactId>
     <version>0.0.5-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -23,7 +23,7 @@
     </properties>
 
     <scm>
-        <connection>scm:git:git@github.com:denniscourneyea/rest-soap-template.git</connection>
+        <connection>scm:git:git@github.com:denniscourneyea/rest-service-template.git</connection>
     </scm>
 
     <!-- Maven will pull dependencies from here -->

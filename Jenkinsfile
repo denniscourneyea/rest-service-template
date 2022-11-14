@@ -1,6 +1,6 @@
 #!/usr/bin/groovy
 node {
-    final String cmdGitCheckout = "git clone git@github.com:denniscourneyea/rest-soap-template.git ."
+    final String cmdGitCheckout = "git clone git@github.com:denniscourneyea/rest-service-template.git ."
     final String cmdMvnBuild = "mvn -B jgitflow:release-start jgitflow:release-finish"
     final String cmdGitMaster = "git checkout master"
     final String cmdGitPushAll = "git push --all"

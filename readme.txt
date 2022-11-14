@@ -155,7 +155,7 @@ For additional information, see:
 First, clone a fresh copy of the Git repository. This isn't strictly necessary but will make
 cleanup easier and more reliable if anything goes wrong during the release process:
 
-    $ git clone git@github.com:denniscourneyea/rest-soap-template.git
+    $ git clone git@github.com:denniscourneyea/rest-service-template.git
 
 Next, build the project and perform the release locally:
 

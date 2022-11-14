@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     
     <parent>
-        <groupId>ca.denniscourneyea.rest-soap-template</groupId>
+        <groupId>ca.denniscourneyea.rest-service-template</groupId>
         <artifactId>parent</artifactId>
         <version>0.0.5-SNAPSHOT</version>
     </parent>
@@ -15,7 +15,7 @@
     
     <properties>
         <tomcatBaseUrl>http://localhost:8080</tomcatBaseUrl>
-        <serviceContext>rest-soap-template</serviceContext>
+        <serviceContext>rest-service-template</serviceContext>
     </properties>
 
     <build>

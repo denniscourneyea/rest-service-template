@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     
     <parent>
-        <groupId>ca.denniscourneyea.rest-soap-template</groupId>
+        <groupId>ca.denniscourneyea.rest-service-template</groupId>
         <artifactId>parent</artifactId>
         <version>0.0.5-SNAPSHOT</version>
     </parent>
