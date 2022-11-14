@@ -1,6 +1,6 @@
-package ca.denniscourneyea.service.impl.common.status;
+package ca.denniscourneyea.service.impl.status;
 
-import ca.denniscourneyea.service.impl.common.AbstractResponseBuilder;
+import ca.denniscourneyea.service.impl.AbstractResponseBuilder;
 
 class StatusResponseBuilder extends AbstractResponseBuilder<StatusResponse> {
 

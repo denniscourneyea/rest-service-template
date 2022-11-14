@@ -1,4 +1,4 @@
-package ca.denniscourneyea.service.impl.common;
+package ca.denniscourneyea.service.impl;
 
 public abstract class Response {
 

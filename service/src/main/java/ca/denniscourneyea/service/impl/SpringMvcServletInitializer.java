@@ -1,4 +1,4 @@
-package ca.denniscourneyea.service.impl.rest;
+package ca.denniscourneyea.service.impl;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

@@ -1,6 +1,6 @@
-package ca.denniscourneyea.service.impl.common.status;
+package ca.denniscourneyea.service.impl.status;
 
-import ca.denniscourneyea.service.impl.common.Response;
+import ca.denniscourneyea.service.impl.Response;
 
 public class StatusResponse extends Response {
 

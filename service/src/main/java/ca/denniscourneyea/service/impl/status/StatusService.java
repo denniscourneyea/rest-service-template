@@ -1,4 +1,4 @@
-package ca.denniscourneyea.service.impl.common.status;
+package ca.denniscourneyea.service.impl.status;
 
 import org.springframework.stereotype.Service;
 
