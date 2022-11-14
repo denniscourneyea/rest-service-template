@@ -10,7 +10,6 @@
     <description>Web service project template using Spring MVC and WS to support both REST (JSON + XML) and SOAP API's.</description>
     
     <modules>
-        <module>lib</module>
         <module>service</module>
     </modules>
 
@@ -87,12 +86,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- Internal -->
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>gson</artifactId>
-                <version>${project.version}</version>
-            </dependency>
             <!-- Common External Dependencies -->
             <dependency>
                 <groupId>org.springframework</groupId>
