@@ -1,6 +1,5 @@
 package ca.denniscourneyea.service.impl.common.status;
 
-import ca.denniscourneyea.service.api.v1.StatusResponse;
 import org.junit.Test;
 
 import static org.junit.Assert.assertNotNull;

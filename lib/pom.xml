@@ -15,6 +15,5 @@
 
     <modules>
         <module>gson</module>
-        <module>jaxb</module>
     </modules>
 </project>

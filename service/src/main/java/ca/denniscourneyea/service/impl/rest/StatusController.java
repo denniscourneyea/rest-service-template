@@ -1,6 +1,6 @@
 package ca.denniscourneyea.service.impl.rest;
 
-import ca.denniscourneyea.service.api.v1.StatusResponse;
+import ca.denniscourneyea.service.impl.common.status.StatusResponse;
 import ca.denniscourneyea.service.impl.common.status.StatusService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

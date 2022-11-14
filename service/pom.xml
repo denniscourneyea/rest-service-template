@@ -56,11 +56,6 @@
     </build>
 
     <dependencies>
-        <!-- Internal -->
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>api</artifactId>
-        </dependency>
         <!-- Common External Dependencies -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -78,15 +73,6 @@
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
-        </dependency>
-        <!-- SOAP Specific Dependencies -->
-        <dependency>
-            <groupId>org.springframework.ws</groupId>
-            <artifactId>spring-ws-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>wsdl4j</groupId>
-            <artifactId>wsdl4j</artifactId>
         </dependency>
         <!-- Test Dependencies -->
         <dependency>
