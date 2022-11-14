@@ -1,16 +1,14 @@
 package ca.denniscourneyea.service.impl.common;
 
-import java.time.Instant;
-
 public abstract class Response {
 
-    private Instant timestamp;
+    private String timestamp;
 
-    public Instant getTimestamp() {
+    public String getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(Instant timestamp) {
+    public void setTimestamp(String timestamp) {
         this.timestamp = timestamp;
     }
 }

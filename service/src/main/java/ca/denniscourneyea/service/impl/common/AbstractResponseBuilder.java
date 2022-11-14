@@ -1,6 +1,6 @@
 package ca.denniscourneyea.service.impl.common;
 
-import java.time.Instant;
+import java.time.ZonedDateTime;
 
 public abstract class AbstractResponseBuilder<R extends Response> {
     protected final R response;
@@ -10,7 +10,7 @@ public abstract class AbstractResponseBuilder<R extends Response> {
     }
 
     public R toResponse() {
-        this.response.setTimestamp(Instant.now());
+        this.response.setTimestamp(ZonedDateTime.now().toString());
         return this.response;
     }
 
