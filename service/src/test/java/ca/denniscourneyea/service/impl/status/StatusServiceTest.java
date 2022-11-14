@@ -6,7 +6,7 @@ import static org.junit.Assert.assertNotNull;
 
 public class StatusServiceTest {
 
-    private StatusService service = new StatusService("version");
+    private final StatusService service = new StatusService("version");
 
     @Test
     public void getStatus() {

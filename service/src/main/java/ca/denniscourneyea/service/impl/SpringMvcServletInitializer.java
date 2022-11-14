@@ -20,7 +20,6 @@ public class SpringMvcServletInitializer extends AbstractAnnotationConfigDispatc
     }
 
     @Override
-    @SuppressWarnings("NullableProblems") // Warnings are spurious. This implementation can't return a null value.
     protected String[] getServletMappings() {
         return new String[] { "/rest/*" };
     }
