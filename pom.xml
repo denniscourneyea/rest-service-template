@@ -25,26 +25,6 @@
     <scm>
         <connection>scm:git:git@github.com:denniscourneyea/rest-service-template.git</connection>
     </scm>
-
-    <!-- Maven will pull dependencies from here -->
-	<repositories>
-		<repository>
-			<id>local-mirror</id>
-			<url>http://localhost:8081/repository/maven/</url>
-		</repository>
-	</repositories>
-
-    <!-- Maven will deploy artifacts to here -->
-	<distributionManagement>
-		<snapshotRepository>
-			<id>local-snapshots</id>
-			<url>http://localhost:8081/repository/maven-snapshots/</url>
-		</snapshotRepository>
-		<repository>
-			<id>local-releases</id>
-			<url>http://localhost:8081/repository/maven-releases/</url>
-		</repository>
-	</distributionManagement>
     
 	<build>
         <!-- Over-riding the final name allows combining abbreviated artifactId's that look neater when combined with the 
